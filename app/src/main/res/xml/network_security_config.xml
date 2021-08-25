@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--Set application-wide security config using base-config tag.-->
+    <base-config cleartextTrafficPermitted="true"/>
+    <domain-config>
+        <domain includeSubdomains="true">http://125.141.27.3/login.php</domain>
+    </domain-config>
+</network-security-config>

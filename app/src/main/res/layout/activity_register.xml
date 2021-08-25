@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90sp"
+        android:layout_marginBottom="50sp"
+        android:text="Register"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_register_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="10sp"
+        android:drawableRight="@drawable/ic_identifier"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="10sp"
+        android:drawableRight="@drawable/ic_password"
+        android:hint="PASSWORD" />
+
+    <EditText
+        android:id="@+id/et_register_studentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="10sp"
+        android:drawableRight="@drawable/ic_student_number"
+        android:hint="STUDENT NUMBER" />
+
+    <EditText
+        android:id="@+id/et_register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_email"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="15sp"
+        android:hint="NAME" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="register"
+        android:id="@+id/btn_register_register"/>
+
+
+</LinearLayout>
